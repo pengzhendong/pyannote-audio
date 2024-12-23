@@ -13,8 +13,8 @@
 # limitations under the License.
 
 import click
-import torch
 import onnxruntime as ort
+import torch
 
 try:
     from pyannote.audio import Model
